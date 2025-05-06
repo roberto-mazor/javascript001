@@ -9,3 +9,4 @@ Vamos estudar
 - vetor
 - interação com o DOM
 
+Roberto
