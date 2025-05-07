@@ -8,6 +8,14 @@ let idade = 35
 
 // Console e Debug
 
+console.log(nome)
+console.log(idade)
+
+nome = "Renata"
+idade = 34
+
+console.log(nome, idade)
+
 // Operadores
 //     Operador Atribuição
 //     Operadores aritméticos
