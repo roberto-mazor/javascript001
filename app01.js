@@ -61,6 +61,18 @@ console.log(10<2 || 100==150 || 57==57) // ( Ou || ) Apenas uma verificação pr
 //  o resultado só será falso quando TODAS as verificações forem falsas.
 
 
+// Desafio
+
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+
+// faça um código que acrescente 17% ao preço e imprima
+precoAcrescimo = preco + preco * 0.17
+console.log("Preço com acrecimo: " + precoAcrescimo.toFixed(2))
+// faça um codigo que desconte 7% do preço e imprima
+precoDesconto = preco - preco * 0.07
+console.log("Preço com desconto: " + precoDesconto.toFixed(2))
 
 
 
