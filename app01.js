@@ -34,30 +34,30 @@ console.log(typeof fumante)
 // Operadores
 //     Operador Atribuição (=)
 //     Operadores aritméticos (+ , - , / , * , %)
-console.log(10+15)
+console.log(10 + 15)
 let n1 = 10
 let n2 = 5
-console.log(n1+n2) // soma
-console.log(n1-n2) // subtração
-console.log(n1/n2) // divisão
-console.log(n1*n2) // multiplicação/
-console.log(n1%3) // operador de modulo ou resto da divisão
+console.log(n1 + n2) // soma
+console.log(n1 - n2) // subtração
+console.log(n1 / n2) // divisão
+console.log(n1 * n2) // multiplicação/
+console.log(n1 % 3) // operador de modulo ou resto da divisão
 
 //     Operadores relacionais ( > , < , >= , <= , !=, == )
-console.log(n1==n2) // igualdade
-console.log(n1!=n2) // diferente
-console.log(n1>n2) // maior
-console.log(10<10) // menor
-console.log(10<=10) // menor igual
+console.log(n1 == n2) // igualdade
+console.log(n1 != n2) // diferente
+console.log(n1 > n2) // maior
+console.log(10 < 10) // menor
+console.log(10 <= 10) // menor igual
 console.log(150 >= 175) // maior igual
 
 //     Operadores lógicos ( ! , && , || )
-console.log (!10 > 2) // (! não) - inverte o resultado, se for verdadeiro muda para falso, se for falso muda para verdadeiro.
+console.log(!10 > 2) // (! não) - inverte o resultado, se for verdadeiro muda para falso, se for falso muda para verdadeiro.
 console.log(!false)
 
-console.log(10>2 && 35<100 && n1>n2 && 100<90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro.
+console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro.
 
-console.log(10<2 || 100==150 || 57==57) // ( Ou || ) Apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro,
+console.log(10 < 2 || 100 == 150 || 57 == 57) // ( Ou || ) Apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro,
 //  o resultado só será falso quando TODAS as verificações forem falsas.
 
 
@@ -80,9 +80,38 @@ console.log("Preço com desconto: " + precoDesconto.toFixed(2))
 
 // Estrutura
 //     Estrutura de controle/decisão
+
+if (10 > 100) {
+    console.log("10 é maior que 5")
+} else {
+    console.log("10 é menor que 100")
+}
+
+let idadeDoCandidato = 17
+if (idadeDoCandidato >= 18) {
+    console.log("Pode digigir")
+} else {
+    console.log("Volte mais tarde")
+}
+
+//Desafio
+
+let salarioFunc = 3000
+aumento = 0
+
+// Faça um código que verifique se o sálario do funcionário é maior que 5000, se for mostre a mensagem "salário OK"
+// senão mostre a mensagem "Precisa de aumentode de x reais"
+
+if (salarioFunc > 5000) {
+    console.log("Salário OK")
+} else { (aumento = 5000 - salarioFunc)
+    console.log("Precisa de aumento de " + aumento + " reais")
+}
+
+
 //     Laços de repetição
 
-// Arrays 
+// Arrays
 
 // Funções básicas
 // Escopo
@@ -103,6 +132,5 @@ console.log("Preço com desconto: " + precoDesconto.toFixed(2))
 
 
 // Spread e REST  ***********
- 
 
- 
+
