@@ -139,9 +139,42 @@ for(let i=1; i<=50; i=i+1){
 }
 
 
-// Arrays
+// Arrays --> vetor
+
+let alunos = ["João", "Paulo", "Renata", "Cris", "x"]
+console.log(alunos)
+console.log(alunos[2])
+
+alunos[4] = "Kleber" // mudar valor dentro do array
+console.log(alunos)
+
+alunos.push("Karem") // Push - Adicionar mais um valor dentro da variavel "alunos"
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍓")
+frutas.push("🍋‍🟩")
+frutas.push("🍊")
+frutas.push("🍌")
+frutas.push("🥝")
+console.log(frutas)
+
+
+
 
 // Funções básicas
+
+
+function soma(num1, num2){ // Declare o nome da função: ex soma - obs: pareteses () sempre coloar.
+
+let total = num1 + num2
+console.log("Oresultado é " + total)
+}
+
+soma(100, 14) // chame a função "soma" para que seja executado
+soma(7, 3)
+
 // Escopo
 
 
